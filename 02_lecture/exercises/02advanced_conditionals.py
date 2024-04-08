@@ -17,7 +17,14 @@ Examples:
 
 """
 # Write your solution here
-
+#number_1 = input("please type in hte first number:")
+#number_2 = input("please type in hte second number:")
+#if number_1 > number_2:
+ #   print(f"The greater was: {number_1}")
+#lif number_1 == number_2:
+  #  print("The numbers are equal!")
+#else:
+ #   print(f"The greater ist {number_2}")
 """
 Python comparison operators can also be used on strings. 
 String a is smaller than string b if it comes alphabetically before b. Notice however that the comparison is only reliable if
@@ -42,7 +49,14 @@ Please type in the 2nd word: >> python
 You gave the same word twice.
 
 """
-# Write your solution here
+#word1 = input("please type in a word:")
+#word2 = input("please type in another word:")
+#if word1 < word2:
+ #   print(f" {word2} comes alphabetically last.")
+#elif word1 > word2:
+ #   print(f"{word1} comes alphabetically last.")
+#else:
+ #   print("The words are the same or beginn with the same letter!")
 
 """
 Write a program which asks for the user's name. 
@@ -59,7 +73,13 @@ Examples:
     Please type in your name: >> Ken
     You're not a nephew of any character I know of.
 """
-# Write your solution here
+
+user_input = input("please type in a name")
+if user_input == "huey" or "dewey" or "luoie":
+    print("i think you are one of the duck's nephews")
+else:
+    print("access deneid, the name is wrong")
+
 
 """
 FizzBuzz

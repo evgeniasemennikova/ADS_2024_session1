@@ -37,7 +37,7 @@ As implied by the name variable, the value stored in a variable can change.
 """
 Assigning multiple values at once
 """
-# a = b = "Hello"
+a = b = "Hello"
 # print(a)
 # print(b)
 
@@ -45,11 +45,11 @@ Assigning multiple values at once
 Assigning different values to multiple variables
 """
 #
-# a, b, c = "Hello", "World", "!"
-#
-# print(a)
-# print(b)
-# print(c)
+#a = b = c = "Hello", "World", "!"
+
+#print(a)
+#print(b)
+#print(c)
 
 
 """
@@ -57,20 +57,20 @@ Integers
 
 Integers are numbers that do not have a decimal or fractional part, such as -15, 0 and 1.
 """
-# number1 = 100
-# number2 = "100"
-#
-# print(number1)
-# print(number2)
+#number1 = 100
+#number2 = "100"
+
+#print(number1)
+#print(number2)
 
 """
 Variable types matter because different operations affect different types of variables in different ways. Let's have a look at an example:
 """
-# number1 = 100
-# number2 = "100"
-#
-# print(number1 + number1)
-# print(number2 + number2)
+number1 = 100
+number2 = "100"
+
+print(number1 + number1)
+print(number2 + number2)
 
 """
 Not all operators are available for all types of variables. 
@@ -85,17 +85,17 @@ Combining values while printing
 The following program will not work, because "The result is " and result are of two different types:
 """
 
-# result = 10 * 25
-# # the following line produces an error
-# print("The result is " + result)
+#result = 10 * 25
+#the following line produces an error
+#print("The result is " + result)
 
 """
 If we do want to print out a string and an integer in a single command, the integer can be cast as a string with 
 the str function, and the two strings can then be combined normally. 
 For example, this would work:
 """
-# result = 10 * 25
-# print("The result is " + str(result))
+#result = 10 * 25
+#print("The result is " + str(result))
 
 """
 The print command also has built-in functionalities that support combining different types of values. 
@@ -103,8 +103,8 @@ The simplest way is to add a comma between the values.
 All the values will be printed out regardless of their type:
 """
 
-# result = 10 * 25
-# print("The result is", result)
+#result = 10 * 25
+#print("The result is", result)
 
 """
 Printing with f-strings

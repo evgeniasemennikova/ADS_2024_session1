@@ -6,7 +6,9 @@ Example:
     7 times 5 is 35
 """
 # Write your solution here
-
+number = input("type a number:")
+result = number*5
+print(f"{number} * 5 is {result}")
 
 """
 Write a program which asks the user for their name and year of birth. 

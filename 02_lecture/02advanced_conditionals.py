@@ -82,7 +82,7 @@ print(f" {greatest} is the greatest of the numbers.")
 Nesting Conditions
 """
 
-number = int(input("Please type in a number: "))
+#number = int(input("Please type in a number: "))
 
 if number > 0:
     if number % 2 == 0:

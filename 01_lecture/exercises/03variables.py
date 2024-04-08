@@ -2,7 +2,8 @@
 Assign your name to a variable and print it.
 """
 # Write your solution here
-
+my_name = "jane"
+print(my_name)
 """
 Assign your age to a variable and print it.
 """

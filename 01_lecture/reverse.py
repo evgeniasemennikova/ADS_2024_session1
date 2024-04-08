@@ -49,11 +49,11 @@ print("---")
 
 if budget_difference < 0:
     print("Sorry, you have made " + apply_printing_format_to_number(budget_difference * (-1)) + "€ in debt!")
-elif budget_difference > 0:
+elif budget_difference <= 0:
+    print("You have bought all your groceries but no more money!")
+else:
     print(
         "Congratulation, after buying your groceries, you have " + apply_printing_format_to_number(budget_difference) +
         "€ left!")
-else:
-    print("You have bought all your groceries but no more money!")
 
 print("Goodbye " + name + "!")
